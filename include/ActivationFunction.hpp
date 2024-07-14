@@ -3,6 +3,7 @@
 
 class ActivationFunction {
 public:
+    virtual ~ActivationFunction() = default;
     virtual double activate(double input) const = 0;
     virtual double activate_derivative(double input) const = 0;
 };
