@@ -13,7 +13,8 @@ public:
 
     Neuron(int num_inputs, const std::string& activation);
     double neuron_output();
-
+    void print_neuron_weights();
+    void print_neuron_bias();
 private:
     std::string activationFunction;
     double activate(double x) const;

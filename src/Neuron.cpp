@@ -32,3 +32,11 @@ double Neuron::activate(double x) const {
     // Add more activation functions as needed
     return x;  // Default (linear) activation
 }
+void Neuron::print_neuron_weights() {
+    for (int i = 0; i < weights.size(); i++) {
+        std::cout << weights[i] << std::endl;
+    }
+}
+void Neuron::print_neuron_bias() {
+    std::cout << bias << std::endl;
+}

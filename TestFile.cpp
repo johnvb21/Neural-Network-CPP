@@ -10,6 +10,6 @@ int main() {
     double result = neuron.neuron_output();
 
     std::cout << "Neuron output: " << result << std::endl;
-
+    neuron.print_neuron_weights();
     return 0;
 }
