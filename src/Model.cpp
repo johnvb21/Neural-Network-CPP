@@ -7,8 +7,8 @@ Model::Model(const std::vector<Layer>& input_layers, int model_input_size) : mod
         model_layers[i].initialize_layer(model_layers[i-1].num_neurons);
     }
 }
+
+
 void Model::print_model_stats() {
-    for (int i = 0; i < model_layers.size(); i++) {
-        
-    }
+    
 }
